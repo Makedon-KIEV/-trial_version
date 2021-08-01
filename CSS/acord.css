@@ -1,0 +1,25 @@
+.accord {
+    background-color: #ddd;
+    max-width: 300px;
+}
+
+.accord__radio {display: none;}
+
+.accord__page {
+    display: block;
+    color: #fff;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    user-select: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.accord__text{
+    display: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.accord__radio:checked+.accord__page+.accord__text {display: block;}
+.accord__page:hover, .accord__radio:checked+.accord__page {opacity: 0.9;}

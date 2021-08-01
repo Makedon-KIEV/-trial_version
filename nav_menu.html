@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/nav_menu.css">
+</head>
+<body>
+    <nav class="nav">
+        <input class="nav__check" type="checkbox" id="showmenu"/>
+        <label class="nav__showmenu" for="showmenu">&#9776;</label>
+        <label class="nav__back" for="showmenu"></label>
+        <ul class="menu">
+          <li><a class="menu__item" href="#">Catalog</a></li>
+          <li>
+            <a class="menu__item" href="#">About</a>
+            <input class="menu__check" type="checkbox" id="menu2">
+            <label class="menu__showsub" for="menu2">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item" href="#">Info</a></li>
+              <li><a class="menu__item" href="#">Company</a></li>
+            </ul>
+          </li>
+          <li><a class="menu__item" href="#">Price</a></li>
+          <li><a class="menu__item" href="#">Contacts</a></li>
+          <li><a class="menu__item" href="#">Other</a></li>
+        </ul>
+      </nav>
+</body>
+</html>
